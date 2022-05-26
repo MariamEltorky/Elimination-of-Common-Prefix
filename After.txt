@@ -1,0 +1,8 @@
+<expr>::=! <expr>  | (<expr>)  | <expr> <1> | new <2>
+<1>::=binaryOp <expr>  | [<expr>]  | . length  | <term>  
+<2>::=simpleType [<expr>]  | typeID () 
+<term>::=ID  | while (<expr>) <statements>  | <type> <3>
+<3>::=+ <object>  | * <object> 
+<object>::=if (<expr>) then <state1> <4>
+<4>::=E | else <state2> <5>
+<5>::=E | <state3> 

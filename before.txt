@@ -1,0 +1,6 @@
+<expr>::=<expr> binaryOp <expr> |<expr> [<expr>] |<expr> . length |new simpleType [<expr>] |new typeID () |! <expr> |(<expr>) |<expr> <term>  
+<term>::=<type> + <object> |<type> * <object> |ID |while (<expr>) <statements> 
+<object>::=if (<expr>) then <state1> |if (<expr>) then <state1> else <state2> |if (<expr>) then <state1> else <state2> <state3> 
+$
+
+
