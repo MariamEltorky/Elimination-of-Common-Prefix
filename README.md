@@ -5,7 +5,7 @@ expand a nonterminal A to αβ1 or αβ2 or … or αβn so it is a prerequisite
 big problem so, I tried to handle this big problem in my project to help Computer scientists to solve left factoring faster and easier using language C++.
 
 ## If we have this rule in grammar:
-##### (Factor) ::= (term) | (term) + (object) | (term) * (expr)
+#### (Factor) ::= (term) | (term) + (object) | (term) * (expr)
 ## We left factor the grammar that : 
-##### (Factor) ::= (term)  (Arguments)
-##### (Arguments) ::= + (object) | * (expr) | €
+#### (Factor) ::= (term)  (Arguments)
+#### (Arguments) ::= + (object) | * (expr) | €
