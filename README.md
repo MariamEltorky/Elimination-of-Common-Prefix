@@ -6,5 +6,6 @@ big problem so, I tried to handle this big problem in my project to help Compute
 
 <Factor> ::= <term> | <term> + <object> | <term> * <expr>
 -We left factor the grammar that :
+ 
 <Factor> ::= <term> < Arguments> 
 <Arguments> ::= + <object> | * <expr> | €
